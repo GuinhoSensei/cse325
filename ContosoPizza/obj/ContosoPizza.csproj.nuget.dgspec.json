@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MyConsoleApp\\MyConsoleApp.csproj": {}
+    "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\ContosoPizza\\ContosoPizza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MyConsoleApp\\MyConsoleApp.csproj": {
+    "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\ContosoPizza\\ContosoPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MyConsoleApp\\MyConsoleApp.csproj",
-        "projectName": "MyConsoleApp",
-        "projectPath": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MyConsoleApp\\MyConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\ContosoPizza\\ContosoPizza.csproj",
+        "projectName": "ContosoPizza",
+        "projectPath": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\ContosoPizza\\ContosoPizza.csproj",
         "packagesPath": "C:\\Users\\guinh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MyConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\ContosoPizza\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,6 +61,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
