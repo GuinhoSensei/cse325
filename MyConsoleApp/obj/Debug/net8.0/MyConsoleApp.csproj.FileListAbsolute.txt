@@ -12,3 +12,4 @@ C:\Users\guinh\Desktop\BYUI\cse325\MyConsoleApp\obj\Debug\net8.0\refint\MyConsol
 C:\Users\guinh\Desktop\BYUI\cse325\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.pdb
 C:\Users\guinh\Desktop\BYUI\cse325\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.genruntimeconfig.cache
 C:\Users\guinh\Desktop\BYUI\cse325\MyConsoleApp\obj\Debug\net8.0\ref\MyConsoleApp.dll
+c:\Users\guinh\Desktop\BYUI\cse325\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.sourcelink.json

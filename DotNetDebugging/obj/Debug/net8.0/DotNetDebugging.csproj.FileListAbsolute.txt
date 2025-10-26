@@ -1,0 +1,15 @@
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\bin\Debug\net8.0\DotNetDebugging.exe
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\bin\Debug\net8.0\DotNetDebugging.deps.json
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\bin\Debug\net8.0\DotNetDebugging.runtimeconfig.json
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\bin\Debug\net8.0\DotNetDebugging.dll
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\bin\Debug\net8.0\DotNetDebugging.pdb
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.AssemblyInfoInputs.cache
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.AssemblyInfo.cs
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.csproj.CoreCompileInputs.cache
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.sourcelink.json
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.dll
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\refint\DotNetDebugging.dll
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.pdb
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\DotNetDebugging.genruntimeconfig.cache
+C:\Users\guinh\Desktop\BYUI\cse325\DotNetDebugging\obj\Debug\net8.0\ref\DotNetDebugging.dll
