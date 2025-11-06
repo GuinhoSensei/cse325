@@ -20,3 +20,43 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Comfortable form controls across the site */
+input[type="text"],
+input[type="search"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  padding: 0.5rem 0.75rem;   /* <- adds inner space */
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  line-height: 1.4;
+}
+
+/* Optional: nicer layout for the filter bar on Index */
+.filter-bar .filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+.filter-bar label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  gap: 0.25rem;
+}
+.filter-bar button {
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  background: #f8f9fa;
+  cursor: pointer;
+}
+.filter-bar button:hover {
+  background: #eef1f4;
+}
