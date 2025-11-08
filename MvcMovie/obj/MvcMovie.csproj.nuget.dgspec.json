@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "c:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "c:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\guinh\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\guinh\\Desktop\\BYUI\\cse325\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
