@@ -1,7 +1,68 @@
 ﻿@page "/"
 
 <PageTitle>Home</PageTitle>
-<Board @rendermode="InteractiveServer" 
-        BoardColor="System.Drawing.Color.Black"
-     Player1Color="System.Drawing.Color.Green"
-     Player2Color="System.Drawing.Color.Purple"/>
+
+<h3>Customize Your Game</h3>
+
+<div style="margin-bottom: 1rem;">
+    <div style="margin: 0.5rem 0;">
+        <label style="min-width: 130px; display: inline-block;">Board Color:</label>
+        <select @bind="selectedBoardColor">
+            @foreach (var color in BasicColors)
+            {
+                <option value="@color">@color</option>
+            }
+        </select>
+    </div>
+
+    <div style="margin: 0.5rem 0;">
+        <label style="min-width: 130px; display: inline-block;">Player 1 Color:</label>
+        <select @bind="selectedPlayer1Color">
+            @foreach (var color in BasicColors)
+            {
+                <option value="@color">@color</option>
+            }
+        </select>
+    </div>
+
+    <div style="margin: 0.5rem 0;">
+        <label style="min-width: 130px; display: inline-block;">Player 2 Color:</label>
+        <select @bind="selectedPlayer2Color">
+            @foreach (var color in BasicColors)
+            {
+                <option value="@color">@color</option>
+            }
+        </select>
+    </div>
+</div>
+
+<p>
+    DEBUG (Home): Board=@selectedBoardColor,
+    P1=@selectedPlayer1Color,
+    P2=@selectedPlayer2Color
+</p>
+
+<hr />
+
+<Board @rendermode="InteractiveServer"
+       BoardColor="@selectedBoardColor"
+       Player1Color="@selectedPlayer1Color"
+       Player2Color="@selectedPlayer2Color" />
+
+@code {
+    private readonly string[] BasicColors =
+    [
+        "black",
+        "white",
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "purple",
+        "orange"
+    ];
+
+    private string selectedBoardColor   = "black";
+    private string selectedPlayer1Color = "green";
+    private string selectedPlayer2Color = "purple";
+}
